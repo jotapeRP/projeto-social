@@ -38,15 +38,16 @@ section#social{
 section#social img{
     width: 50px;
     border-radius: 50%;
+    margin: 10px;
     box-sizing: border-box;
-    box-shadow: 2px 2px 5px #0000006e;
+    box-shadow: 2px 2px 5px hwb(0 0% 100% / 0.548);
 }
 
 section#social img:hover{
     border:2px solid white;
-    transform: translate(-3px, -3px);
+    width: 60px;
     box-shadow: 5px 5px 10px #0000006e;
-    transition: 0.3s;
+    transition: 0.2s;
     
 }
 
